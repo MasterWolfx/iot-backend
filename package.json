@@ -1,0 +1,32 @@
+{
+	"name": "iot-server",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"start": "tsx src/app.ts",
+		"dev": "nodemon --exec tsx src/app.ts",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.21.2",
+		"italian-numbers": "^1.4.0",
+		"metaphone": "^2.0.1",
+		"mongoose": "^8.9.0",
+		"natural": "^8.0.1",
+		"string-similarity": "^4.0.4",
+		"words-to-numbers": "^1.5.1"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.0",
+		"@types/mongoose": "^5.11.96",
+		"@types/natural": "^5.1.5",
+		"@types/node": "^22.10.2",
+		"nodemon": "^3.1.9",
+		"tsx": "^4.19.2",
+		"typescript": "^5.7.2"
+	}
+}
